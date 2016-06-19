@@ -1,0 +1,19 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "A 2048 clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log('hello world')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayqui/2048-clone.git"
+  },
+  "author": "jayqui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayqui/2048-clone/issues"
+  },
+  "homepage": "https://github.com/jayqui/2048-clone#readme"
+}
