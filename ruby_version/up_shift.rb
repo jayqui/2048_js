@@ -39,4 +39,8 @@ module UpShift
     board
   end
 
+  def swipe_up
+    # write
+  end
+
 end

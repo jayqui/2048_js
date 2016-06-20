@@ -232,4 +232,18 @@ describe 'UpShift' do
       end
     end
   end
+
+  describe '#swipe_up' do
+    it 'shifts up for all columns' do
+      board_before = [ [2,2,4,8],
+                       [2,2,4,0],
+                       [4,2,2,4],
+                       [4,2,2,4], ]
+
+      board_after  = [ [4,4,8,8],
+                       [8,4,4,8],
+                       [0,0,0,0],
+                       [0,0,0,0], ]
+    end
+  end
 end
