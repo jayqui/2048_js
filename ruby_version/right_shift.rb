@@ -33,7 +33,7 @@ module RightShift
 
   def shift_row_right(row)
     combine_elements_right(row)
-    loop do |time_through|
+    loop do
       shift_row_right_once(row)
       break if !@changed_row
     end

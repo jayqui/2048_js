@@ -15,6 +15,7 @@ class Game
                [0,0,0,0],
                [0,0,0,0], ]
     @changed_row = nil
+    @changed_column = nil
   end
 
 end

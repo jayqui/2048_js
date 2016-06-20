@@ -33,7 +33,7 @@ module LeftShift
 
   def shift_row_left(row)
     combine_elements_left(row)
-    loop do |time_through|
+    loop do
       shift_row_left_once(row)
       break if !@changed_row
     end
