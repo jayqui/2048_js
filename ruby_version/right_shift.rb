@@ -40,4 +40,10 @@ module RightShift
     row
   end
 
+  def swipe_right(board)
+    board.each do |row|
+      shift_row_right(row)
+    end
+  end
+
 end

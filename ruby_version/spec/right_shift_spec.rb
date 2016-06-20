@@ -72,4 +72,20 @@ describe 'RightShift' do
       end
     end
   end
+
+  describe '#swipe_left' do
+    it 'shifts left for all rows' do
+      board_before = [ [2,2,2,2],
+                       [4,4,2,2],
+                       [8,0,4,4],
+                       [0,0,8,8], ]
+
+      board_after =  [ [0,0,4,4],
+                       [0,0,8,4],
+                       [0,0,8,8],
+                       [0,0,0,16], ]
+
+      expect(game.swipe_right(board_before)).to eq(board_after)
+    end
+  end
 end

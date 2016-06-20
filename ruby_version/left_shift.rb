@@ -40,4 +40,10 @@ module LeftShift
     row
   end
 
+  def swipe_left(board)
+    board.each do |row|
+      shift_row_left(row)
+    end
+  end
+
 end
