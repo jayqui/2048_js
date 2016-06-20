@@ -244,6 +244,9 @@ describe 'UpShift' do
                        [8,4,4,8],
                        [0,0,0,0],
                        [0,0,0,0], ]
+
+      board_transformed = game.swipe_up(board_before)
+      expect(board_transformed).to eq(board_after)
     end
   end
 end

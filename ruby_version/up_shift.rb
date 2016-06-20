@@ -39,8 +39,11 @@ module UpShift
     board
   end
 
-  def swipe_up
-    # write
+  def swipe_up(board)
+    board.first.each_index do |column_number|
+      shift_column_up(board: board, column_number: column_number)
+    end
+    board
   end
 
 end
